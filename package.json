@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.3.2",
-    "@testing-library/user-event": "^7.1.2",
+    "@testing-library/jest-dom": "^5.4.0",
+    "@testing-library/react": "^10.0.2",
+    "@testing-library/user-event": "^10.0.1",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
@@ -31,5 +31,18 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "description": "<p align=\"center\">\r   <a href=\"\" rel=\"noopener\">\r  <img width=200px height=200px src=\"https://i.imgur.com/6wj0hh6.jpg\" alt=\"Project logo\"></a>\r </p>",
+  "main": "index.js",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-node": "^4.0.0",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.19.0",
+    "prettier": "^2.0.4"
   }
 }
