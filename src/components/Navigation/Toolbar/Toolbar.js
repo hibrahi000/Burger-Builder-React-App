@@ -4,15 +4,15 @@ import NavigationItems from '../NavigationItems/NavigationItems';
 import classes from './Toolbar.module.css';
 
 const toolbar = (props) => (
-	<header className={classes.Toolbar}>
-		<div>MENU</div>
+  <header className={classes.Toolbar}>
+    <div>MENU</div>
 
-		<Logo />
+    <Logo />
 
-		<nav>
-			<NavigationItems />
-		</nav>
-	</header>
+    <nav>
+      <NavigationItems />
+    </nav>
+  </header>
 );
 
 export default toolbar;
