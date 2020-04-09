@@ -19,5 +19,11 @@
 
 .LogoContainer {
     height: 80%;
+    text-align: center
+}
 
+@media (max-width: 499px) {
+    .DesktopOnly {
+        display: none;
+    }
 }
